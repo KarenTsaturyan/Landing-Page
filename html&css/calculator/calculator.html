@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="calculator.css">
+    <script type="text/javascript" src="calculator.js"></script>
+    <title></title>
+  </head>
+  <body>
+      <div class="main-box">
+        <div>
+          <input type="text" class="res" name="textview" id="textview" readonly/>
+        </div>
+        <div class="num-place">
+          <input type="button" class="numbers numbers_inside" name="del" id="del" value="C" onclick="del()" />
+          <input type="button" class="numbers numbers_inside" name="mo" id="mo" value="←" onclick="minusone()"/>
+          <input type="button" class="numbers numbers_inside" name="divide" id="divide" value="÷" onclick="insert('/')" />
+          <input type="button" class="numbers numbers_inside" name="percent" id="percent" value="%" onclick="percent(100)" />
+          <input type="button" class="numbers numbers_inside" name="first" id="first" value="1" onclick="insert('1')"/>
+          <input type="button" class="numbers numbers_inside" name="second" id="second" value="2" onclick="insert('2')"/>
+          <input type="button" class="numbers numbers_inside" name="third" id="third" value="3" onclick="insert('3')"/>
+          <input type="button" class="numbers numbers_inside" name="plus" id="plus" value="+" onclick="insert('+')">
+          <input type="button" class="numbers numbers_inside" name="fourth" id="fourth" value="4" onclick="insert('4')"/>
+          <input type="button" class="numbers numbers_inside" name="fifth" id="fifth" value="5" onclick="insert('5')"/>
+          <input type="button" class="numbers numbers_inside" name="sixth" id="sixth" value="6" onclick="insert('6')"/>
+          <input type="button" class="numbers numbers_inside" name="minus" id="minus" value="-" onclick="insert('-')">
+          <input type="button" class="numbers numbers_inside" name="seventh" id="seventh" value="7" onclick="insert('7')"/>
+          <input type="button" class="numbers numbers_inside" name="eight" id="eight" value="8" onclick="insert('8')"/>
+          <input type="button" class="numbers numbers_inside" name="ninth" id="ninth" value="9" onclick="insert('9')"/>
+          <input type="button" class="numbers numbers_inside" name="multiple" id="multiple" value="×" onclick="insert('*')">
+          <input type="button" class="numbers numbers_inside" name="sqrt" id="sqrt" value="√" onclick="sqrt()"/>
+          <input type="button" class="numbers numbers_inside" name="zero" id="zero" value="0" onclick="insert('0')"/>
+          <input type="button" class="numbers numbers_inside" name="dot" id="dot" value="," onclick="insert('.')" />
+          <input type="button" class="numbers numbers_inside" name="ans" id="ans" value="=" onclick="answer()"/>
+        </div>
+    </div>
+  </body>
+</html>

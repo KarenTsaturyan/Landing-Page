@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="xo.css">
+    <title></title>
+  </head>
+  <body>
+    <div class="game_area" id='game'>
+      <table class="area">
+        <tr>
+          <td>
+            <div class="tic_tac" id="tic1" onclick="drawx(place1)"></div>
+          </td>
+          <td>
+            <div class="tic_tac" id="tic2" onclick="drawx(place2)"></div>
+          </td>
+          <td>
+            <div class="tic_tac" id="tic3" onclick="drawx(place3)"></div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="tic_tac" id="tic4" onclick="drawx(place4)"></div>
+          </td>
+          <td>
+            <div class="tic_tac" id="tic5" onclick="drawx(place5)"></div>
+          </td>
+          <td>
+            <div class="tic_tac" id="tic6" onclick="drawx(place6)"></div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="tic_tac" id="tic7" onclick="drawx(place7)"></div>
+          </td>
+          <td>
+            <div class="tic_tac" id="tic8" onclick="drawx(place8)"></div>
+          </td>
+          <td>
+            <div class="tic_tac" id="tic9" onclick="drawx(place9)"></div>
+          </td>
+        </tr>
+      </table>
+      <div>
+      <input type="button" class="re_f" name="ref" id="ref" value="restart" onclick="playAgain()">
+    </div>
+
+    <script src="xo.js" type="text/javascript">
+
+    </script>
+  </body>
+</html>

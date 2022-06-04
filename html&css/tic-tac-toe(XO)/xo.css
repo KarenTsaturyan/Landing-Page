@@ -1,0 +1,48 @@
+body {
+  background-color: lightgrey;
+}
+.game_area {
+  margin: auto;
+  width: 600px;
+  height: 600px;
+}
+.tic_tac {
+  width: 200px;
+  height: 200px;
+  background: rgb(225,220,163);
+  background: radial-gradient(circle, rgba(225,220,163,1) 0%, rgba(148,187,233,1) 100%);
+  border-style: outset;
+  border-color: inherit;
+  font-size: 128px;
+  text-align: center;
+  vertical-align: center;
+}
+.area {
+  border-style: hidden;
+}
+.re_f {
+  display: none;
+  margin: auto;
+  width: 140px;
+  height: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+
+.re_f:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
